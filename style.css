@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+body,html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.container{
+    position: relative;
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-100{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+}
+.col-50{
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+.col-33{
+    max-width: 33.3%;
+    flex: 0 0 33.3%;
+    padding: 0 15px;
+}
+.col-25{
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 15px;
+}
+.col-20{
+    max-width: 20%;
+    flex: 0 0 20%;
+    padding: 0 15px;
+}
+.navsection{
+    position: relative;
+    border: 1px solid rgb(234, 232, 232);
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navlink{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.navlink li a{
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.nav_icons{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.nav_icons[name="cross"]{
+    display: none;
+}
+.navbtns{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+}
+.logo-part{
+    position: relative;
+}
+.band-logo{
+    width: 80%;
+}
+.order-bootom button{
+   outline: none;
+   background: none;
+   border: none;
+   background:#0f7946 ; 
+   color: white;
+   padding: 15px 19px;
+   border-radius: 50px;
+   font-size: 20px;
+   text-transform: capitalize;
+}
+.menubar{
+    padding: 13px 0;
+}
+/* ---------------------------------navbar--------------------------------------------------- */
+.aboutus{
+    position: relative;  
+    width: 100%;
+    background: url("asstes/images/Hero\ Banner\ Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:700px ;
+}
+.nameplate{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.nameplate p{
+    font-family: "Anton", sans-serif;
+    font-size: 28px;
+    color: #ffa500;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.nameplate h1{
+    font-family: "Anton", sans-serif;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+}
+.nameplate span{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.know-button{
+    background: none;
+    outline: none;
+    border: none;
+    background: #ffa500;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 12px 19px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+/* ---------------------------------aboutus------------------------------------------------------ */
+.draw-line{
+    /* border: 5px solid black;  */
+    position: relative;  
+    width: 100%;
+    background: url("asstes/images/Vector\ \(13\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:150px ; 
+    top:-142px;
+    
+}
+/* --------------------------draw-line--------------------------------- */
+.fresh-fruit{
+    background: #0f7946;
+    top:-143px;
+    position: relative;
+    width: 100%;
+}
+.mix-item{
+    position: relative;
+    padding:50px 40px;
+    
+}
+.mix-item h2{
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 13px; 
+    color: white;
+}
+.mix-item span{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: white; 
+}
+.ingreant{
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+}
+.one{
+    margin-right: 80px;
+    /* padding: 0 40px; */
+}
+.one p{
+    color: white;
+    font-size: 18px;
+}
+.know-part button{
+    background: none;
+    outline: none;
+    border: none;
+    background: #ffa500;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 12px 19px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+.juice-img-1{
+    width: 100%;
+    position: relative;
+}
+.juice-2{
+    position: relative;  
+    width: 100%;
+    background: url("asstes/images/juice-h1-filler-img-2\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:150px ; 
+}
+/* ---------------------------------------------fresh-fruit-------------------------------------------------- */
+.juice-name{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.juice-name h3{
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.juice-pic{
+    position: relative;
+    width: 100%;
+}
+.price{
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+.price p{
+    font-family: "Anton", sans-serif;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.price span{
+    font-size: 18px;
+}
+.all-juice{
+ margin-top: 20px;
+ text-align: center;
+ justify-content: center;
+ width: 100%;
+}
+.all-juice button{
+    background: none;
+    outline: none;
+    border: none;
+    background: #ffa500;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 12px 19px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+/* ---------------------------------------------types-of-juice--------------------------------------------------- */
+.card-box{
+    display: flex;
+    flex-direction: column;
+}
+.card-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.furit-image{
+    background: #ffa500;
+}
+.banner-image{
+    padding: 20px;
+}
+.banner-image-1{
+    width: 100%;
+}
+.delicious-part{
+    margin-top: 80px;
+}
+.fruit-name{
+    background: #0f7946;
+}
+.card-box{
+    margin-top: 20px;
+}
+.card-part{
+    width: 100%;
+    margin-top: 100px;
+}
+.card-name p{
+    font-size: 60px;
+    color: white;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 40px;
+}
+.flavior-nmae{
+    margin-top: 15px;
+}
+.flavior-nmae p{
+    color: white;
+    margin-bottom: 9px;
+    font-size: 28px;
+    font-family: "Anton", sans-serif;
+}
+.flavior-nmae span{
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+.price-box{
+    margin-top: 67px;
+}
+.price-box span{
+    color: white;
+    font-size: 28px;
+}
+/* ------------------------------------------juice-diffrent------------------------------------------------------ */
+.our-chef{
+    background: #0f7946;
+    width: 100%;
+    margin-top: 70px;
+}
+.chef{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.chef h4{
+    font-size: 60px;
+    color: white;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 10px;
+}
+.chef  span{
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.chef-pic-1{
+    margin-top: 100px;
+}
+.six p{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: "Anton", sans-serif;
+    margin-top: 30px;
+}
+/* --------------------------------------------------chef-------------------------------------------------- */
+
+/* ------------------------------------------------------from-part--------------------------------------------------- */
+.draw-line-1{
+     position: relative;  
+     width: 100%;
+     background: url("asstes/images/Vector\ \(13\).png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     min-height:150px ; 
+     top:8px;   
+}
+/* -----------------------------------draw-line-part-------------------------------------------------- */
+.footer-section{
+    background: #0f7946;
+    position: relative;
+    width: 100%;
+
+}
+.sign-up-1{
+    padding: 137px 160px;
+}
+.sign-up{
+    border: 3px dotted white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+.sign-up p{
+    font-size: 60px;
+    font-family: "Anton", sans-serif;
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+.sign-up span{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.email-part{
+    margin-top: 14px;
+    background: white;
+    border-radius: 50px;
+   display: flex;
+}
+.email{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: none;
+  }
+  .email-part{
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    background: rgb(245, 243, 243) ;
+    display: flex;
+  }
+  .email-part-1{
+    padding: 0 148px;
+  }
+  .subscribe-part button{
+    outline: none;
+    border: none;
+    background: none;
+    margin-left: 301px;
+    background: #ffa500;
+    padding: 15px 18px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+  .web-site{
+    display: flex;
+  }
+  .web-site div{
+    padding:20px  10px;
+  }
+  .footer-part{
+    margin-top: 37px;
+  }
+  .footer-part p{
+    font-family: "Anton", sans-serif;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .footer-name > li{
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  .footer-part-1 p{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  /* ------------------------------------------footer-part---------------------------------------------------------- */
+/* --------------------------------------media------------------------------------------------------------- */
+@media(max-width:1444px){
+    .sign-up {
+        padding: 21px;
+    }
+    .sign-up-1 {
+        padding: 137px 27px;
+    }
+    .subscribe-part button {
+        margin-left: 583px;
+    }
+}
+@media(max-width:1398px){
+    .subscribe-part{
+        display: none;
+    }
+}
+@media(max-width:1366px){
+    .card-part{
+        margin-top:0;
+    }
+    .sign-up p {
+        font-size: 52px;
+    }
+}
+@media(max-width:1200px){
+    .card-name p {
+        font-size: 50px;
+    }
+}
+@media(max-width:1024px){
+    .sign-up p {
+        font-size: 45px;
+    }
+}
+@media(max-width:991px){
+    .menubar{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 65%;
+        height: 100%;
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100%);
+        background-color: green;
+        transition: all .3s ease;
+    }
+    .navlink{
+        flex-direction: column;
+    }
+    .navlink li a{
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+    }
+    .navbtns{
+        display: block;
+        background: transparent;
+        cursor: pointer;
+    }
+    .active .menubar{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+    .active .navbtns .nav_icons[name="cross"]{
+        display: block;
+    }
+    .active .navbtns .nav_icons[name="menu"]{
+        display: none;
+    }
+    .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .nameplate h1 {
+        font-size: 58px;
+    }
+    .mix-item h2 {
+        font-size: 52px;
+    }
+    .col-33{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .price p {
+        font-size: 44px;
+    }
+    .price span {
+        font-size: 34px;
+    }
+    .all-juice{
+        margin-top: 50px;
+    }
+    .all-juice button{
+        font-size: 25px;
+    }
+    .col-20{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .footer-part{
+        text-align: center;
+    }
+    .footer-part-1{
+        text-align: center;
+    }
+    .web-site{
+        text-align: center;
+        justify-content: center;
+    }
+    .sign-up p {
+        font-size: 36px;
+    }
+    .col-25{
+        max-width: 100%;
+        flex:0 0 100%;
+    }
+    .chef-pic-1{
+        padding: 0 310px;
+    }
+}
+@media(max-width:768px){
+    .nameplate h1 {
+        font-size: 43px;
+    }
+    .mix-item h2 {
+        font-size: 42px;
+    }
+    .mix-item h2 {
+        font-size: 37px;
+    }
+    .sign-up p {
+        font-size: 28px;
+    }
+}
+@media(max-width:600px){
+    .price p {
+        font-size: 39px;
+    }
+    .juice-name h3 {
+        font-size: 52px;
+    }
+    .sign-up span {
+        font-size: 18px;
+    }
+    .sign-up-1 {
+        padding: 139px 3px;
+    }
+    .chef-pic-1 {
+        padding: 0 137px;
+    }
+}
+@media(max-width:575px){
+    .order-bootom button{
+        display: none;
+    } 
+    .nameplate h1 {
+        font-size: 37px;
+    } 
+    .juice-name h3 {
+        font-size: 44px;
+    }
+    .sign-up p {
+        font-size: 24px;
+    }
+    .email-part-1 {
+        padding: 0 62px;
+    }
+}
+@media(max-width:480px){
+    .mix-item {
+        padding: 50px 15px;
+    }
+    .nameplate h1 {
+        font-size: 30px;
+    }
+    .mix-item h2 {
+        font-size: 31px;
+    }
+    .nameplate span {
+        font-size: 18px;
+    }
+    .nameplate p {
+        font-size: 26px;
+    }
+    .price p {
+        font-size: 33px;
+    }
+    .juice-name h3 {
+        font-size: 37px;
+    }
+    .all-juice button{
+        font-size: 20px;
+    }
+    .card-name p {
+        font-size: 42px;
+    }
+    .sign-up {
+        padding: 21px 0;
+    }
+    .sign-up p {
+        font-size: 19px;
+    }
+    .chef h4 {
+        font-size: 49px;
+    }
+    .chef-pic-1 {
+        padding: 0px 57px;
+    }
+    .chef-pic-1 {
+        margin-top: 52px;
+    }
+}
+@media(max-width:375px){
+    .one {
+        margin-right: 51px;
+    }
+    .mix-item h2 {
+        font-size: 27px;
+    }
+    .price p {
+        font-size: 25px;
+    }
+    .price span {
+        font-size: 24px;
+    }
+    .juice-name h3 {
+        font-size: 34px;
+    }
+    .card-name p {
+        font-size: 33px;
+    }
+    .flavior-nmae p {
+        font-size: 23px;
+    }
+    .price-box span {
+        font-size: 22px;
+    }
+    .price-box {
+        margin-top: 30px;
+    }
+    .sign-up p {
+        font-size: 16px;
+    }
+    .chef h4 {
+        font-size: 43px;
+    }
+}
+@media(max-width:320px){
+    .mix-item h2 {
+        font-size: 26px;
+    }
+    .nameplate h1 {
+        font-size: 28px;
+    }
+    .card-name p {
+        font-size: 29px;
+    }
+}
